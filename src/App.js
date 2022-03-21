@@ -24,8 +24,8 @@ const events = [
     {
         title: "Días no disponibles",
         allDay: true,
-        start: new Date(2022, 6, 0),
-        end: new Date(2022, 6, 0),
+        start: new Date(2022, 20, 4),
+        end: new Date(2022, 20, 4),
     },
     {
         title: "Días no disponibles",
