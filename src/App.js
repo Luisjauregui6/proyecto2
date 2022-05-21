@@ -50,7 +50,6 @@ function App() {
     return (
         <div className="App">
             <h1>Calendario</h1>
-            <h2>Agregar Nuevo Evento</h2>
             <div>
                 <input type="text" placeholder="Agregar titulo" style={{ width: "20%", marginRight: "10px" }} value={newEvent.title} onChange={(e) => setNewEvent({ ...newEvent, title: e.target.value })} />
                 <DatePicker placeholderText="Inicio" style={{ marginRight: "10px" }} selected={newEvent.start} onChange={(start) => setNewEvent({ ...newEvent, start })} />
